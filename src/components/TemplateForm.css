@@ -1,0 +1,29 @@
+/* src/components/TemplateForm.css */
+.template-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.template-form div {
+  margin-bottom: 10px;
+}
+
+.template-form label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.template-form input,
+.template-form textarea {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.template-form button {
+  padding: 10px;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}

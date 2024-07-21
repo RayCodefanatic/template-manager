@@ -1,0 +1,5 @@
+/* src/components/Templates.css */
+.templates {
+  display: flex;
+  flex-direction: column;
+}
