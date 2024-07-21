@@ -1,6 +1,6 @@
 // src/components/Sidebar.js
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import './Sidebar.css';
 
 const Sidebar = () => {
@@ -19,14 +19,14 @@ const Sidebar = () => {
         <nav>
           <ul>
             <li>
-              <Link to="/templates" onClick={toggleSidebar}>
+              <NavLink to="/templates" onClick={toggleSidebar}>
                 Templates
-              </Link>
+              </NavLink>
             </li>
             <li>
-              <Link to="/addTemplate" onClick={toggleSidebar}>
+              <NavLink to="/addTemplate" onClick={toggleSidebar}>
                 Add Template
-              </Link>
+              </NavLink>
             </li>
           </ul>
         </nav>
